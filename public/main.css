@@ -19,7 +19,9 @@ body, .tooltip
 .container--narrow {
   max-width: 732px;
 }
-
+.logo {
+  max-width: 250px;
+}
 .header-search-icon {
   position: relative;
   top: 3px;

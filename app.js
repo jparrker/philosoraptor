@@ -33,7 +33,6 @@ app.use(function(req,res, next) {
   } else {
     {req.visitorId = 0}
   }
-  // make user session data available in view template
   res.locals.user = req.session.user
   next()
 })
